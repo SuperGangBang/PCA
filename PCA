@@ -1,0 +1,3 @@
+def get_pca(x):
+    pca = PCA(n_components=2)
+    return (pca.fit_transform(x))
